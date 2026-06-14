@@ -1,24 +1,22 @@
 'use client'
 
-import { Facebook, Github, Instagram, Youtube } from "lucide-react"
+import { Linkedin, Mail, Phone } from "lucide-react"
 import Link from "next/link"
 
 const settings = {
   links: [
-    { title: 'About', href: '/' },
-    { title: 'Blog', href: '/' },
-    { title: 'Jobs', href: '/' },
-    { title: 'Press', href: '/' },
-    { title: 'Affiliate', href: '/' },
-    { title: 'Contact Us', href: '/' },
+    { title: 'Services', href: '#services' },
+    { title: 'Results', href: '#metrics' },
+    { title: 'Pricing', href: '#pricing' },
+    { title: 'FAQ', href: '#faq' },
+    { title: 'Book a Call', href: 'https://calendar.app.google/CDrMo8sP9kGnXfhD8' },
   ],
   socialMedia: [
-    { title: 'Facebook', icon: Facebook, href: '/' },
-    { title: 'Instagram', icon: Instagram, href: '/' },
-    { title: 'Github', icon: Github, href: '/' },
-    { title: 'Youtube', icon: Youtube, href: '/' },
+    { title: 'LinkedIn', icon: Linkedin, href: 'https://www.linkedin.com/company/sales-woot' },
+    { title: 'Email', icon: Mail, href: 'mailto:saleswootusa@gmail.com' },
+    { title: 'Phone', icon: Phone, href: 'tel:+12163078940' },
   ],
-  copyright: '© 2024 Your Company, Inc. All rights reserved.'
+  copyright: '© 2026 SalesWoot (Strategy X Consulting LLC.). All rights reserved.'
 }
 
 export default function Footer() {
@@ -34,7 +32,7 @@ export default function Footer() {
       {/* Social links */}
       <div className="flex flex-wrap md:flex-row items-center justify-center gap-7 md:gap-10">
         {settings.socialMedia.map((social, index) => (
-          <Link title={social.title} key={index} href={social.href}><social.icon /></Link>
+          <a title={social.title} aria-label={social.title} key={index} href={social.href} target="_blank" rel="noopener noreferrer"><social.icon /></a>
         ))}
       </div>
 

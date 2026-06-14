@@ -114,8 +114,8 @@ export default function Hero() {
         <SlideEffect className="relative w-full" isSpring={false} duration={1.3}>
           <div className="relative rounded-2xl overflow-hidden shadow-2xl">
             <Image
-              src="/dashboard.png"
-              alt='SalesWoot analytics dashboard showing lead generation metrics, reply rates, and channel performance'
+              src="/campaign-results-hero.png"
+              alt='SalesWoot campaign dashboard showing 52K emails sent, 5.23% reply rate, and 146 opportunities worth $146,000'
               width={1920}
               height={1080}
               priority
