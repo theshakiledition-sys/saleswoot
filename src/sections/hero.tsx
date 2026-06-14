@@ -11,11 +11,11 @@ import Link from "next/link";
 import { AnimatedTooltip } from "@/components/ui/animated-tooltip";
 
 const settings = {
-  headline: 'Fill Your Calendar With Ready-to-Buy Decision Makers',
-  subheadline: 'Saleswoot specializes in high-deliverability cold email and LinkedIn omnichannel outreach. We deliver predictable sales calls from verified, decision-ready prospects through dual-channel automation.',
+  headline: 'Generate High-Quality Leads That Actually Close Deals',
+  subheadline: 'SalesWoot is a Leads-as-a-Service platform and service provider. Using our unique data-driven technology we generate lead databases with 99% accuracy. Get verified, decision-ready prospects delivered to your inbox through cold email and LinkedIn outreach.',
   mainCTA: {
     content: 'Schedule Strategy Call',
-    href: '#contact'
+    href: 'https://calendar.app.google/CDrMo8sP9kGnXfhD8'
   },
   secondaryCTA: {
     content: 'View Our Process',
@@ -24,35 +24,23 @@ const settings = {
   illustration: '/illustration.svg',
   reviews: [
     {
-      name: "Sarah Chen",
-      designation: "VP Sales, SaaS",
+      name: "Jamie Patridge",
+      designation: "CEO, UpliftGTM",
       image:
         "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3387&q=80",
     },
     {
-      name: "Michael Torres",
-      designation: "Founder, B2B",
+      name: "Bryan Clayton",
+      designation: "Founder, GreenPal",
       image:
         "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
     },
     {
-      name: "Jessica Lee",
-      designation: "Sales Director, Tech",
+      name: "Brigitte Cooper",
+      designation: "Owner, CT Agency",
       image:
         "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
     },
-    {
-      name: "David Kim",
-      designation: "Revenue Leader",
-      image:
-        "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
-    },
-    {
-      name: "Emma Walsh",
-      designation: "Growth Manager",
-      image:
-        "https://images.unsplash.com/photo-1517841905240-1c21a0f9a99e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
-    }
   ]
 }
 
@@ -63,14 +51,14 @@ export default function Hero() {
 
       <section className="flex flex-col gap-8 lg:gap-11 items-center text-center">
         {/* Headline */}
-        <h1 className="text-black text-4xl md:text-6xl lg:text-hero font-medium tracking-tight leading-none xl:max-w-3/4">
-          <TextBlurEffect className='text-transparent bg-clip-text bg-gradient-to-b from-black to-black/60'>{settings.headline}</TextBlurEffect>
+        <h1 className="text-black text-4xl md:text-6xl lg:text-hero font-semibold tracking-tight leading-none xl:max-w-3/4">
+          <TextBlurEffect className='text-transparent bg-clip-text bg-gradient-to-b from-black via-black to-black/70'>{settings.headline}</TextBlurEffect>
         </h1>
 
         {/* Sub-headline */}
         <SlideEffect
           delay={0}
-          className="text-sm lg:text-base px-6 sm:px-10 md:px-0 md:max-w-3/4 mx-auto"
+          className="text-sm lg:text-base px-6 sm:px-10 md:px-0 md:max-w-3/4 mx-auto font-medium text-gray-700 leading-relaxed"
         >
           {settings.subheadline}
         </SlideEffect>
@@ -81,24 +69,24 @@ export default function Hero() {
         >
           {/* Buttons */}
           <div className="flex flex-col md:flex-row items-center w-full justify-center gap-3 md:gap-4 mt-1">
-            <Link href={settings.mainCTA.href} className="w-full">
-              <Button size='lg' className="capitalize w-full hidden lg:flex">
+            <a href={settings.mainCTA.href} target="_blank" rel="noopener noreferrer" className="w-full">
+              <Button size='lg' className="capitalize w-full hidden lg:flex font-semibold">
                 {settings.mainCTA.content}
                 <ArrowRight />
               </Button>
 
-              <Button size='default' className="capitalize w-full flex lg:hidden">
+              <Button size='default' className="capitalize w-full flex lg:hidden font-semibold">
                 {settings.mainCTA.content}
                 <ArrowRight />
               </Button>
-            </Link>
+            </a>
 
             <Link href={settings.secondaryCTA.href} className="w-full">
-              <Button size='lg' className="capitalize w-full hidden lg:flex" variant='secondary'>
+              <Button size='lg' className="capitalize w-full hidden lg:flex font-semibold" variant='secondary'>
                 {settings.secondaryCTA.content}
               </Button>
 
-              <Button size='default' className="capitalize w-full flex lg:hidden" variant='secondary'>
+              <Button size='default' className="capitalize w-full flex lg:hidden font-semibold" variant='secondary'>
                 {settings.secondaryCTA.content}
               </Button>
             </Link>
@@ -117,21 +105,24 @@ export default function Hero() {
                 <Star size={16} fill='oklch(0.795 0.184 86.047)' className="text-yellow-500" />
               </div>
 
-              <span className="text-xs">Trusted by 50+ Growth Teams</span>
+              <span className="text-xs font-semibold">Trusted by 100+ Sales Teams</span>
             </div>
           </div>
         </SlideEffect>
 
-        {/* Illustration */}
-        <SlideEffect className="relative" isSpring={false} duration={1.3}>
-          <Image
-            src={settings.illustration}
-            alt='illustration'
-            width={1920}
-            height={1080}
-            priority
-            loading="eager"
-          />
+        {/* Illustration - Hero Banner with Analytics Image */}
+        <SlideEffect className="relative w-full" isSpring={false} duration={1.3}>
+          <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+            <Image
+              src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1920 1080'%3E%3Crect fill='%23f8f9ff' width='1920' height='1080'/%3E%3Ctext x='960' y='540' font-size='48' font-weight='bold' text-anchor='middle' fill='%23333' font-family='system-ui'>SalesWoot Analytics Dashboard</text%3E%3Ctext x='960' y='600' font-size='24' text-anchor='middle' fill='%23666' font-family='system-ui'>Data-Driven Lead Generation Platform</text%3E%3Cg opacity='0.3'%3E%3Crect x='200' y='700' width='300' height='200' fill='%234f46e5' rx='8'/%3E%3Crect x='600' y='700' width='300' height='250' fill='%237c3aed' rx='8'/%3E%3Crect x='1000' y='700' width='300' height='180' fill='%236366f1' rx='8'/%3E%3Crect x='1400' y='700' width='300' height='220' fill='%238b5cf6' rx='8'/%3E%3C/g%3E%3C/svg%3E"
+              alt='SalesWoot Dashboard'
+              width={1920}
+              height={1080}
+              priority
+              loading="eager"
+              className="w-full h-auto"
+            />
+          </div>
           <FadeEffect />
         </SlideEffect>
       </section>
