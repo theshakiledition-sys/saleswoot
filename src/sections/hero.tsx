@@ -11,47 +11,47 @@ import Link from "next/link";
 import { AnimatedTooltip } from "@/components/ui/animated-tooltip";
 
 const settings = {
-  headline: 'Hello YouTube',
-  subheadline: 'Privacy-friendly web analytics made and hosted in Germany — powerful, cookie-free, and fully compliant with GDPR, CCPA, and PECR.',
+  headline: 'Fill Your Calendar With Ready-to-Buy Decision Makers',
+  subheadline: 'Saleswoot specializes in high-deliverability cold email and LinkedIn omnichannel outreach. We deliver predictable sales calls from verified, decision-ready prospects through dual-channel automation.',
   mainCTA: {
-    content: 'try it for free',
-    href: '#'
+    content: 'Schedule Strategy Call',
+    href: '#contact'
   },
   secondaryCTA: {
-    content: 'view live demo',
-    href: '#'
+    content: 'View Our Process',
+    href: '#services'
   },
   illustration: '/illustration.svg',
   reviews: [
     {
-      name: "John Doe",
-      designation: "Software Engineer",
+      name: "Sarah Chen",
+      designation: "VP Sales, SaaS",
       image:
-        "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3387&q=80",
+        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3387&q=80",
     },
     {
-      name: "Robert Johnson",
-      designation: "Product Manager",
+      name: "Michael Torres",
+      designation: "Founder, B2B",
       image:
-        "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
     },
     {
-      name: "Jane Smith",
-      designation: "Data Scientist",
+      name: "Jessica Lee",
+      designation: "Sales Director, Tech",
       image:
-        "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
     },
     {
-      name: "Emily Davis",
-      designation: "UX Designer",
+      name: "David Kim",
+      designation: "Revenue Leader",
       image:
-        "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
     },
     {
-      name: "Tyler Durden",
-      designation: "Soap Developer",
+      name: "Emma Walsh",
+      designation: "Growth Manager",
       image:
-        "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
+        "https://images.unsplash.com/photo-1517841905240-1c21a0f9a99e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
     }
   ]
 }
@@ -117,7 +117,7 @@ export default function Hero() {
                 <Star size={16} fill='oklch(0.795 0.184 86.047)' className="text-yellow-500" />
               </div>
 
-              <span className="text-xs">Trusted by 500+ Customers</span>
+              <span className="text-xs">Trusted by 50+ Growth Teams</span>
             </div>
           </div>
         </SlideEffect>
