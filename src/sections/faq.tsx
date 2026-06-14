@@ -12,36 +12,36 @@ const settings = {
   title: 'Frequently asked questions',
   faqs: [
     {
-      question: 'How does SalesWoot ensure 99% data accuracy?',
-      answer: 'We combine proprietary AI technology with manual verification processes. Every lead database is cross-checked against multiple data sources, validated for current employment, decision-making authority, and direct contact information. Our verification process takes 48 hours to ensure you receive only the most accurate prospects.',
+      question: 'What exactly does SalesWoot do?',
+      answer: 'SalesWoot is a Done-For-You B2B cold email agency. We build and run custom cold email campaigns that reach your target buyers and book sales meetings on your calendar. From verified list building and copywriting to inbox setup, sending, and reply management, we handle the entire outreach engine so your team can focus on closing.',
     },
     {
-      question: 'What is the difference between Cold Email and LinkedIn Outreach plans?',
-      answer: 'Cold Email focuses on high-deliverability email campaigns with AI-crafted sequences and SMTP warm-up. LinkedIn Outreach uses strategic automation for connection requests and personalized messaging. Our Omnichannel plan combines both for maximum reach - emails catch early in the buying journey while LinkedIn reinforces your message through social proof.',
+      question: 'Who is SalesWoot for?',
+      answer: 'We work primarily with eCommerce brands and B2B companies that want a predictable flow of qualified conversations. We have partnered with 200+ clients, and our campaigns work best for teams selling a clear offer to a definable list of decision-makers.',
     },
     {
-      question: 'Can I switch between plans or upgrade anytime?',
-      answer: 'Absolutely! You can upgrade or downgrade your plan at any time. If you upgrade mid-month, we\'ll credit your account and process the difference. If you downgrade, the change takes effect at the start of your next billing cycle. No long-term contracts required.',
+      question: 'What kind of results can I expect?',
+      answer: 'On average our clients see a 3x ROI on their email marketing and a 20-30% boost in trackable revenue. Real client campaigns have produced reply rates above 5%, positive reply rates of 36-38%, and pipeline ranging from $19,000 to $146,000 from a single campaign. Results vary based on your offer, list, and market.',
+    },
+    {
+      question: 'How does SalesWoot keep deliverability high?',
+      answer: 'We use secondary sending domains with proper warm-up, real-time email verification, and clean list hygiene (SMTP checks, bounce detection, and spam-trap removal). Combined with throttling and domain rotation, this keeps your messages landing in the inbox while protecting your primary domain reputation.',
+    },
+    {
+      question: 'Is it really done-for-you?',
+      answer: 'Yes. We manage strategy, list building, copywriting, technical setup, sending, and ongoing optimization. You get regular performance reporting and qualified replies and meetings handed off to your team. Most clients are involved only for approvals and taking the sales calls we book.',
     },
     {
       question: 'How quickly will I see results?',
-      answer: 'Most clients see initial results within the first 2-3 weeks. Reply rates typically appear in week 1, while qualified meetings usually start coming in by week 3-4. The Omnichannel approach accelerates results because multiple touchpoints build stronger credibility. We\'ll provide weekly performance reports so you can track progress.',
+      answer: 'Most clients see initial replies within the first 1-2 weeks once domains are warmed and campaigns go live. Booked meetings typically start coming in by weeks 3-4 as sequences run and we optimize messaging based on real response data.',
     },
     {
-      question: 'What type of support do you offer?',
-      answer: 'All plans include email support. LinkedIn and Omnichannel plans include priority and 24/7 VIP support respectively. You\'ll get a dedicated account manager for Omnichannel who can help customize campaigns, analyze performance, and provide strategic recommendations.',
+      question: 'How do I get started?',
+      answer: 'Book a free strategy call using the button on this page. We will review your offer and goals, map out a campaign plan, and show you exactly how we can fill your pipeline with qualified meetings.',
     },
     {
-      question: 'Is there a free trial available?',
-      answer: 'Yes! We offer a free 14-day trial for all plans. No credit card required. You\'ll get access to our full platform, sample lead databases, and support from our team. After the trial, you can choose to upgrade or cancel at any time.',
-    },
-    {
-      question: 'What happens if I don\'t get quality leads?',
-      answer: 'We stand behind our 99% accuracy guarantee. If you\'re unsatisfied with lead quality within the first 30 days, we\'ll either refund 100% of your payment or provide replacement leads at no cost. Your success is our success.',
-    },
-    {
-      question: 'Can I integrate SalesWoot with my existing CRM?',
-      answer: 'Yes! We integrate with all major CRMs including Salesforce, HubSpot, Pipedrive, Close, and more. Leads can be automatically pushed to your CRM, and you can sync campaign performance data for complete visibility. Our API documentation is available for custom integrations.',
+      question: 'How can I contact SalesWoot?',
+      answer: 'You can reach us at saleswootusa@gmail.com or +1 216 307 8940. SalesWoot (Strategy X Consulting LLC.) was founded in 2020 and is headquartered in Dearborn, Michigan, with a team operating internationally.',
     },
   ]
 }

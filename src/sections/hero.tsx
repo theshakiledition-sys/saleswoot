@@ -114,8 +114,8 @@ export default function Hero() {
         <SlideEffect className="relative w-full" isSpring={false} duration={1.3}>
           <div className="relative rounded-2xl overflow-hidden shadow-2xl">
             <Image
-              src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1920 1080'%3E%3Crect fill='%23f8f9ff' width='1920' height='1080'/%3E%3Ctext x='960' y='540' font-size='48' font-weight='bold' text-anchor='middle' fill='%23333' font-family='system-ui'>SalesWoot Analytics Dashboard</text%3E%3Ctext x='960' y='600' font-size='24' text-anchor='middle' fill='%23666' font-family='system-ui'>Data-Driven Lead Generation Platform</text%3E%3Cg opacity='0.3'%3E%3Crect x='200' y='700' width='300' height='200' fill='%234f46e5' rx='8'/%3E%3Crect x='600' y='700' width='300' height='250' fill='%237c3aed' rx='8'/%3E%3Crect x='1000' y='700' width='300' height='180' fill='%236366f1' rx='8'/%3E%3Crect x='1400' y='700' width='300' height='220' fill='%238b5cf6' rx='8'/%3E%3C/g%3E%3C/svg%3E"
-              alt='SalesWoot Dashboard'
+              src="/campaign-results-hero.png"
+              alt='SalesWoot campaign dashboard showing 52K emails sent, 5.23% reply rate, and 146 opportunities worth $146,000'
               width={1920}
               height={1080}
               priority

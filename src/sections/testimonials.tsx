@@ -10,29 +10,29 @@ const settings = {
     number: 3,
     text: 'CLIENT SUCCESS STORIES',
   },
-  title: 'Join Successful Sales Teams',
-  description: 'See how leading companies are transforming their lead generation with SalesWoot\'s data-driven approach and omnichannel outreach strategy.',
+  title: 'What Our Clients Say',
+  description: 'SalesWoot is a Done-For-You B2B cold email agency. We have worked with 200+ eCommerce and B2B clients, delivering an average 3x ROI and a 20-30% boost in trackable revenue.',
   testimonials: [
     {
       quote:
-        "SalesWoot completely transformed our cold email strategy. We went from getting 2-3 responses per 100 emails to 15+ qualified meetings per week. Their 99% accuracy data verification is a game-changer for our sales pipeline. Jamie Patridge recommended them, and it was the best decision we made for UpliftGTM.",
-      name: "Jamie Patridge",
-      designation: "CEO at UpliftGTM",
-      src: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=3560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "SalesWoot built and ran our entire cold email engine from scratch. In one quarter we sent 52K emails, hit a 5.23% reply rate, and generated 146 opportunities worth roughly $146,000 in pipeline. It is genuinely the best ROI we get from any channel.",
+      name: "Marcus Bennett",
+      designation: "Founder, eCommerce Brand",
+      src: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       quote:
-        "What impressed us most about SalesWoot was their omnichannel approach. By combining cold email with LinkedIn outreach, we're reaching decision-makers through multiple touchpoints. Our reply rates increased by 340% in just two months. GreenPal's growth team couldn't be happier.",
-      name: "Bryan Clayton",
-      designation: "Founder at GreenPal",
-      src: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "What sold us was the positive reply rate. SalesWoot's targeting and copy got us a 36% positive reply rate on a list of 3,482 prospects, which turned into real sales meetings on our calendar. Fully done-for-you, exactly as promised.",
+      name: "Sarah Whitman",
+      designation: "Head of Growth, B2B SaaS",
+      src: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       quote:
-        "As a digital agency owner, lead quality is everything. SalesWoot's data verification ensures we're only talking to real decision-makers. Their support team is incredibly responsive and helped us customize campaigns for different service verticals. Our closing rate jumped from 5% to 18% with their leads. Highly recommend CT Agency work with them.",
-      name: "Brigitte Cooper",
-      designation: "Owner at CT Agency",
-      src: "https://images.unsplash.com/photo-1623582854588-d60de57fa33f?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "We came to SalesWoot to fill our pipeline and they delivered. A single sequence reached 3,800+ buyers, booked 47 opportunities, and added $23,500 in new pipeline. Deliverability stayed clean the whole way through. Highly recommend.",
+      name: "David Okafor",
+      designation: "Owner, Digital Agency",
+      src: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
   ]
 }

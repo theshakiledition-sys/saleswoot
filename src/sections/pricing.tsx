@@ -4,18 +4,21 @@ import Card from "@/components/card"
 import SlideEffect from "@/components/slide-effect"
 import { Button } from "@/components/ui/button"
 import { CircleCheck } from "lucide-react"
-import Link from "next/link"
 
 const settings = {
   title: 'Simple, Transparent Pricing',
   description: 'Choose the lead generation service that fits your sales strategy. All plans include our proprietary 99% accuracy data verification and dedicated support.',
+  bookCall: {
+    content: 'Book a Free Strategy Call',
+    href: 'https://calendar.app.google/CDrMo8sP9kGnXfhD8',
+  },
   plan_1: {
     planName: 'Cold Email',
     price: 997,
     currency: '$',
     period: '/month',
     description: 'High-deliverability cold email campaigns with verified prospects',
-    cta: 'Start Free Trial',
+    cta: 'Book a Call',
     ctaLink: 'https://calendar.app.google/CDrMo8sP9kGnXfhD8',
     features: [
       'Up to 500 cold email leads/month',
@@ -34,7 +37,7 @@ const settings = {
     currency: '$',
     period: '/month',
     description: 'Strategic LinkedIn automation with personalized outreach and connection building',
-    cta: 'Start Free Trial',
+    cta: 'Book a Call',
     ctaLink: 'https://calendar.app.google/CDrMo8sP9kGnXfhD8',
     features: [
       'Up to 300 LinkedIn leads/month',
@@ -53,7 +56,7 @@ const settings = {
     currency: '$',
     period: '/month',
     description: 'Complete lead generation solution across cold email + LinkedIn for maximum reach and conversion',
-    cta: 'Start Free Trial',
+    cta: 'Book a Call',
     ctaLink: 'https://calendar.app.google/CDrMo8sP9kGnXfhD8',
     features: [
       '800+ combined leads/month',
@@ -163,6 +166,14 @@ export default function Pricing() {
           </Card>
         </SlideEffect>
       </div>
+
+      {/* Book a call */}
+      <SlideEffect isSpring={false} className="flex flex-col items-center gap-3 pt-2">
+        <p className="text-sm font-medium text-gray-700">Not sure which plan fits? Let&apos;s map it out together.</p>
+        <a href={settings.bookCall.href} target="_blank" rel="noopener noreferrer">
+          <Button size="lg" className="px-8 font-semibold">{settings.bookCall.content}</Button>
+        </a>
+      </SlideEffect>
     </div>
   )
 }
