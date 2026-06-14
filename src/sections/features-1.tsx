@@ -9,13 +9,13 @@ import Image from "next/image"
 const settings = {
   badge: {
     number: 1,
-    text: 'get started in seconds',
+    text: 'Channel 1: Cold Email',
   },
-  title: 'Set Up in Minutes',
-  description: 'Simply add the script to your site, choose from a variety of plugins, or go for the API backend integration. Pirsch is the plug-and-play Google Analytics alternative.',
+  title: 'High-Deliverability Cold Email',
+  description: 'Our cold email system is engineered for maximum inbox placement with 82% average deliverability. We handle everything from verified list acquisition to warm-up protocols and compliance.',
   card_1: {
-    title: 'Effortless Setup',
-    content: 'Pirsch offers plugins, libraries, and tutorials for the most popular CMSs, website builders, and programming languages to get you up and running in no time.',
+    title: 'Secondary Domains & Warm-Up',
+    content: 'We deploy secondary domains with sophisticated warm-up sequences to establish sender reputation. Each domain goes through gradual volume increases and engagement optimization before campaign launch.',
     carousel_images: [
       'https://cdn.worldvectorlogo.com/logos/react-2.svg',
       'https://cdn.worldvectorlogo.com/logos/vue-9.svg',
@@ -28,23 +28,23 @@ const settings = {
     ]
   },
   card_2: {
-    title: 'Seamless Switch',
-    content: 'Migrating from other web analytics solutions? Import your data from Plausible, Fathom, or Google Analytics in just a few clicks and easily continue where you left off.'
+    title: 'Verified Lead Scraping',
+    content: 'Our proprietary scraping technology identifies 35k+ verified decision-maker contacts monthly. We verify email deliverability in real-time and remove bounces before deployment.'
   },
   card_3: {
-    title: 'No Cookie Banner',
-    content: 'Say goodbye to consent banners: Pirsch works without cookies and never stores your visitors personal identifiable information.'
+    title: 'Clean List Verification',
+    content: 'Every email is validated through multiple verification layers. We perform SMTP checks, bounce detection, and spam trap identification to maximize inbox placement and protect sender reputation.'
   },
   card_4: {
-    title: 'Privacy-Friendly by Design',
-    content: 'Built from the ground up with privacy in mind and with an open-source core, Pirsch offers uncompromising GDPR, CCPA, PECR, and Schrems II compliant data protection. All data is hosted on a secure server cluster in Germany.',
+    title: 'Compliance & Scaling',
+    content: 'Full GDPR, CAN-SPAM, and CASL compliance built in. We manage throttling, rate limiting, and domain rotation to scale outreach safely without triggering spam filters or IP blocklists.',
     image: 'https://framerusercontent.com/images/6jTglLZFhLYMIuOe7EC0QFeykU.png?scale-down-to=512',
   },
 }
 
 export default function Features1() {
   return (
-    <div id='features' className="space-y-6 sm:space-y-7 md:space-y-8 lg:space-y-10 mx-auto text-center">
+    <div id='services' className="space-y-6 sm:space-y-7 md:space-y-8 lg:space-y-10 mx-auto text-center">
       {/* Badge */}
       <SlideEffect>
         <Badge number={settings.badge.number} text={settings.badge.text} />
