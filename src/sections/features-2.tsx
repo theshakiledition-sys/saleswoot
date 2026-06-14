@@ -9,18 +9,18 @@ import Image from "next/image"
 const settings = {
   badge: {
     number: 2,
-    text: 'INSTANT OUTPUT',
+    text: 'Channel 2: LinkedIn Automation',
   },
-  title: 'Unlock Key Insights',
-  description: 'With a powerful yet easy-to-use dashboard, you can access the most relevant data necessary to understand your customers and make the right decisions.',
+  title: 'LinkedIn Social Selling Automation',
+  description: 'Reach decision-makers on LinkedIn with personalized, automated outreach that feels human. Our safe-execution framework delivers 15-25% response rates without account risk.',
   card_1: {
-    title: 'Track Everything You Need',
-    content: 'With a wide range of data points, you get a detailed understanding of your visitors and target audience.',
+    title: 'Automated Profile Interactions',
+    content: 'Our platform automates profile visits, connection requests, and message sequences while maintaining natural behavior patterns. Each interaction is timed and sequenced to maximize engagement without triggering LinkedIn detection systems.',
     image: 'https://framerusercontent.com/images/X87jAlbYbJ0hdTyTZ6QIMoQoOo.svg'
   },
   card_2: {
-    title: 'Filter With One Click',
-    content: 'Pirsch makes it effortless to explore your stats through intuitive filtering on a super-fast, highly visual dashboard.',
+    title: 'Human Delay & Safe Execution',
+    content: 'We embed realistic human delays between actions—randomized intervals, pause sequences, and engagement patterns. This ensures your outreach appears natural while maintaining compliance with LinkedIn\'s terms of service.',
     image: 'https://framerusercontent.com/images/A718dQKmWnJEhhnu0SJfCGxzDM.svg'
   },
 }
@@ -56,9 +56,9 @@ export default function Features2() {
         <SlideEffect direction="left" duration={1.3} className="col-span-1 h-full" isSpring={false}>
           <Card>
             <h3 className="text-xl md:text-title text-black font-medium">{settings.card_2.title}</h3>
-            <p>{settings.card_2.content}</p>
+            <p className="mb-4">{settings.card_2.content}</p>
             <div className="relative">
-              <Image src={settings.card_2.image} alt={settings.card_1.title} width={512} height={512} />
+              <Image src={settings.card_2.image} alt={settings.card_2.title} width={512} height={512} />
               <FadeEffect color='secondary' />
             </div>
           </Card>
